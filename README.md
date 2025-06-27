@@ -30,7 +30,7 @@ cd <repo_name>
 - Now add Github repo as a new remote in your VCS called "sync"
 
 ```sh
-git remote add sync ===<ADD_GITHUB_URL_HERE>===
+git remote add sync https://github.com/Optima-Partners-Engineering/recruitment-assignments
 ```
 
 - Verify what are the remotes currently has been setup for your repo. This following command should show "fetch" and "push" for two remotes i.e. "origin" and "sync"
